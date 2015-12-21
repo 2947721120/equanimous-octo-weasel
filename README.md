@@ -34,3 +34,19 @@ In addition to project name (which has the highest priority), it also searches i
 
 # Auto-deploy [![Build Status](https://travis-ci.org/jsdelivr/www.jsdelivr.com.svg?branch=master)](https://travis-ci.org/jsdelivr/www.jsdelivr.com)
 When code is pushed to master it is autodeployed to http://beta-jsdelivr-com.herokuapp.com.
+
+
+
+
+Personal nothing to do with the original design features
+
+1 can associate member, the member has its own list of files to use before and after the merger, for easy viewing, management
+  2 corresponds to the file can be set using the Sites tab,, can also identify whether there is duplication,
+  3 members can change the upload of the file (its own independent libraries, such as google can not be used in China, we need to deal with domain name).
+ 4  Theme and upgrade management and use of the website version Example: Website calling css and js json query cdn for a website user settings, json content can be changed directly in cdn site!
+个人设计功能与原内容无关:
+ 1 可以关联会员,会员拥有自己使用文件列表,合并前后,方便查看,管理
+ 2 对应文件可以设置使用网站标签,,还可以识别是否有重复,
+ 3 会员可以更改上传部分文件(自己独立的库,如google在中国就不能使用,需要处理域名).
+ 4 管理使用网站的主题及升级版本.例:网站调用css和js为查询cdn网站用户设置的某json,json内容可直接在cdn网站更改!
+ 
