@@ -1,20 +1,20 @@
-# Setup
+# 建立
 
-1. Install node.js.
-2. `npm install` in the project directory to set up dependencies.
+1. 安装 node.js(Install node.js.)
+2. `npm install` 在项目目录中设置依赖关系。
 
-# Available commands
+# 可用命令
 
- - `npm run start` - build the app and run a webserver (by default on [http://localhost:4400](http://localhost:4400))
- - `npm run watch` - build the app and automatically rebuild on future changes
+ - `npm run start` - 构建应用程序并运行一个Web服务器(默认情况下 [http://localhost:4400](http://localhost:4400))
+ - `npm run watch` -构建应用程序和自动重建未来的变化
 
-# Configuration
+# 配置
 
- - `PORT` - defaults to `4400`.
- - `NODE_ENV` - optional - setting this to `development` will allow logging to console instead of logentries.
- - `LOGENTRIES_ACCESS_TOKEN` - optional - logentries token for logging incoming requests.
- - `LOGENTRIES_APP_TOKEN` - optional - logentries token for logging everything else.
- - `ALGOLIA_API_KEY` - optional - algolia token with write permissions to `jsDelivr` and `jsDelivr_assets` indices.
+ - `PORT` - 默认值 `4400`.
+ - `NODE_ENV` - 可选设置此 `development` 将允许记录到控制台代替Logentries。
+ - `LOGENTRIES_ACCESS_TOKEN` - 可选Logentries令牌登录请求。
+ - `LOGENTRIES_APP_TOKEN` -可选Logentries令牌记录一切。
+ - `ALGOLIA_API_KEY` - 可选Algolia令牌和写权限`jsDelivr` and `jsDelivr_assets` indices.
 
 # How it works
 
