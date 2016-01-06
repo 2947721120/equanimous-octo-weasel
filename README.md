@@ -16,13 +16,13 @@
  - `LOGENTRIES_APP_TOKEN` -可选Logentries令牌记录一切。
  - `ALGOLIA_API_KEY` - 可选Algolia令牌和写权限`jsDelivr` and `jsDelivr_assets` indices.
 
-# How it works
+# 怎么运行的 
 
-## Project structure
+## 项目结构
 
- - `src/js` - server-side JavaScript. Stuff under `/api/` is a private API used by our front-end.
- - `src/public` - all client-side content - JavaScript, CSS (LESS), and images. To be bundled in the app, JS and LESS files need to be imported in `app.js`/`app.less`. 
- - `src/views` - all pages, organized as [Ractive components](http://docs.ractivejs.org/latest/components). `app.html` is the base templates for all pages, and other components are injected into `#page`.
+ - `src/js` - 服务器端JavaScript。在东西`/api/` 是由我们的前端私有API。
+ - `src/public` - 所有客户端的内容 - 的JavaScript，CSS（LESS），和图像。在该应用被捆绑，JS和LESS文件需要在要导入 `app.js`/`app.less`. 
+ - `src/views` - 所有页面编排 [Ractive components](http://docs.ractivejs.org/latest/components). `app.html`  `app.html`是所有页的基本模板，和其它组件被注入`#page`.
 
 ## Search
 
