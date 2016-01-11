@@ -24,7 +24,7 @@
  - `src/public` - 所有客户端的内容 - 的JavaScript，CSS（LESS），和图像。在该应用被捆绑，JS和LESS文件需要在要导入 `app.js`/`app.less`. 
  - `src/views` - 所有页面编排 [Ractive components](http://docs.ractivejs.org/latest/components). `app.html`  `app.html`是所有页的基本模板，和其它组件被注入`#page`.
 
-## Search
+## 搜索
 
 搜索是通过Algolia供电。有一个脚本，该脚本运行一次一分钟。它从我们的API的所有项目的列表，比较了与索引的内存副本，并更新Algolia指数（仅在有效ALGOLIA_API_KEY设置），必要时。 有些项目有太多的文件。在这种情况下，一个独立的索引（jsDelivr_assets）用于存储的文件的列表的每个版本的项目，并在主索引资产被设置为空数组。 除了项目名称（具有最高优先级），这也将搜索作者的姓名和项目的描述，和容忍错别字（1或2个字符）。 [Algolia](https://www.algolia.com/). There's a [script](https://github.com/jsdelivr/www.jsdelivr.com/commit/8742343dc49b10201f4c5d864da221607d480a83#diff-902324592c72fe4414b0ff192977e0e3), which is run once a minute. It retrieves a list of all projects from our API, compares that with an in-memory copy of the index, and updates the Algolia index when necessary (only if valid `ALGOLIA_API_KEY` is set).
 
