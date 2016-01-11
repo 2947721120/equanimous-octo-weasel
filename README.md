@@ -28,12 +28,12 @@
 
 搜索是通过Algolia供电。有一个脚本，该脚本运行一次一分钟。它从我们的API的所有项目的列表，比较了与索引的内存副本，并更新Algolia指数（仅在有效ALGOLIA_API_KEY设置），必要时。 有些项目有太多的文件。在这种情况下，一个独立的索引（jsDelivr_assets）用于存储的文件的列表的每个版本的项目，并在主索引资产被设置为空数组。 除了项目名称（具有最高优先级），这也将搜索作者的姓名和项目的描述，和容忍错别字（1或2个字符）。 [Algolia](https://www.algolia.com/). There's a [script](https://github.com/jsdelivr/www.jsdelivr.com/commit/8742343dc49b10201f4c5d864da221607d480a83#diff-902324592c72fe4414b0ff192977e0e3), which is run once a minute. It retrieves a list of all projects from our API, compares that with an in-memory copy of the index, and updates the Algolia index when necessary (only if valid `ALGOLIA_API_KEY` is set).
 
-Some projects have too many files. In that case, a separate index (jsDelivr_assets) is used to store a list of files for each version of the project, and `assets` in the main index is set to an empty array.
+有些项目有太多的文件。在这种情况下，一个独立的索引（jsDelivr资产）用于存储的文件的列表的每个版本的项目，和 `assets` 在主索引被设置为空数组。
 
-In addition to project name (which has the highest priority), it also searches in author's name and project's description, and tolerates typos (1 or 2 characters).
+除了项目名称（具有最高优先级），这也将搜索作者的姓名和项目的描述，和容忍错别字（1或2个字符）。
 
-# Auto-deploy [![Build Status](https://travis-ci.org/jsdelivr/www.jsdelivr.com.svg?branch=master)](https://travis-ci.org/jsdelivr/www.jsdelivr.com)
-When code is pushed to master it is autodeployed to http://beta-jsdelivr-com.herokuapp.com.
+# 自动部署 [![Build Status](https://travis-ci.org/jsdelivr/www.jsdelivr.com.svg?branch=master)](https://travis-ci.org/jsdelivr/www.jsdelivr.com)
+当代码被推向掌握它是自动部署到http://beta-jsdelivr-com.herokuapp.com。
 
 
 
